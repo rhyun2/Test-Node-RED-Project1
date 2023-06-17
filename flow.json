@@ -80,5 +80,34 @@
                 "6847b88b8e218e74"
             ]
         ]
+    },
+    {
+        "id": "1840b2cc394fb498",
+        "type": "inject",
+        "z": "316682f0bbb59577",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "TEST2",
+        "payloadType": "str",
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "6847b88b8e218e74"
+            ]
+        ]
     }
 ]
